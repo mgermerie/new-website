@@ -1,0 +1,45 @@
+@media (max-width: $TABLET_BREAKPOINT) {
+  .home-content-wrapper {
+    padding: var(--spacing-XL) 0;
+
+    gap: var(--spacing-XL);
+  }
+
+  .home-content-wrapper .hideable-tablet {
+    display: none;
+  }
+
+  .home-title {
+    padding: var(--spacing-2XS) var(--spacing-2XL);
+
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .home-keywords-wrapper {
+    padding: var(--spacing-XS) var(--spacing-2XL);
+
+    gap: 0;
+    justify-content: space-evenly;
+  }
+
+  .home-keyword-text {
+    font-size: 14px;
+  }
+
+  .home-keyword-info {
+    display: none;
+  }
+
+  .home-call-to-action {
+    padding: 0 var(--spacing-2XL);
+  }
+
+  .home-example-wrapper {
+    margin: 0 var(--spacing-2XL);
+  }
+
+  .home-example-picture {
+    aspect-ratio: 642 / 334;
+  }
+}

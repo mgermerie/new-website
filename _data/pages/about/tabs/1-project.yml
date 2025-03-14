@@ -1,0 +1,55 @@
+- title: Project
+  description: The project includes designers, developers and stakeholders, with
+               both regular and occasional contributors.
+
+  sections:
+
+
+
+    - title: Structure
+      content:
+
+        - type: cards
+          content:
+            - title: Product core
+              tags:
+                - tag: Product owner
+                - tag: Management
+                - tag: Research
+                - tag: Roadmap
+              text:
+                - paragraph: Individuals which oversees the functional aspects
+                             and roadmap of the project. They ensure alignment
+                             with defined goals and needs of the community.
+
+            - title: Core developers
+              tags:
+                - tag: Development
+                - tag: Back-end
+                - tag: Front-end
+                - tag: Design
+              text:
+                - paragraph: Developers which hold ultimate authority over
+                             technical contributions, though those are discussed
+                             and decided collaboratively with the  community.
+
+
+
+    - title: Current and past members of the community
+      custom-template: organisation-chart.html
+      description: Click on any of our members' picture to view their GitHub
+                   page.
+      contributors:
+        - user-name: desplandis
+        - user-name: jailln
+        - user-name: AnthonyGlt
+        - user-name: ftoromanoff
+        - user-name: mgermerie
+        - user-name: gchoqueux
+        - user-name: jogarnier
+        - user-name: zarov
+        - user-name: ketourneau
+        - user-name: pourfex
+        - user-name: valentinMachado
+
+

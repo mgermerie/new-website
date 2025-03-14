@@ -1,0 +1,19 @@
+<div class="subheader">
+
+	<h3 class="subheader-title">
+		{{ include.content.title }}
+	</h3>
+
+	{% if include.content.description %}
+	<div class="subheader-description-wrapper">
+
+		{% for item in include.content.description %}
+		<p class="subheader-description">
+			{{ item.paragraph }}
+		</p>
+		{% endfor %}
+
+	</div>
+	{% endif %}
+
+</div>

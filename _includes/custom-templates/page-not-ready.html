@@ -1,0 +1,21 @@
+<section class="tab-section">
+
+	<h5 class="tab-section-title">
+		{{ include.content.title }}
+	</h5>
+
+	<div class="tab-description-wrapper">
+		<p class="tab-section-paragraph">
+			{{ include.content.text }}
+		</p>
+	</div>
+
+	<a	class="button large tertiary not-ready"
+		href="{{ include.content.link.target }}"
+		target="_blank"
+		title="{{ include.content.link.text }}"
+		style="--icon-left: url('{{ site.baseurl }}/assets/icons/eye.svg');">
+		{{ include.content.link.text }}
+	</a>
+
+</section>

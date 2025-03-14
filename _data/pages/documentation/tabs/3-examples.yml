@@ -1,0 +1,13 @@
+- title: Examples
+  sections:
+
+
+    - title: This content is not ready yet
+      custom-template: page-not-ready.html
+      text: This website is still under construction and the examples page has
+            not been implemented yet. Please visit the old version of the
+            documentation, including examples at the following link.
+      link:
+        text: Visit former examples
+        target: https://www.itowns-project.org/itowns/examples/
+

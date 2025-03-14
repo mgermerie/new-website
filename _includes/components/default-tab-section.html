@@ -1,0 +1,56 @@
+<section class="tab-section">
+	<h5 class="tab-section-title">
+		{{ include.content.title }}
+	</h5>
+
+	{% for item in include.content.content %}
+		{% if item.type == "description" %}
+
+			<div class="tab-section-description">
+
+				{% for description_entry in item.content %}
+					{% assign description = description_entry | first %}
+
+					{% if description[0] == "title" %}
+						<h6 class="tab-section-subtitle">
+							{{ description[1] }}
+						</h6>
+					{% elsif description[0] == "paragraph" %}
+						<p class="tab-section-paragraph">
+							{{ description[1] }}
+						</p>
+					{% elsif description[0] == "inline-link" %}
+						<p class="tab-section-paragraph">
+							<a	class="inline-link"
+								href="{{ description[1].target }}"
+								target="_blank"
+								title="{{ description[1].title }}">
+								{{ description[1].text }}
+							</a>
+						</p>
+					{% endif %}
+
+				{% endfor %}
+
+			</div>
+
+		{% elsif item.type == "cards" %}
+
+			<div class="cards-wrapper
+						{% if item.wrap == "desktop" %}
+							wrap-desktop
+						{% elsif item.wrap == "tablet" %}
+							wrap-tablet
+						{% endif %}">
+
+				{% for card in item.content %}
+					{% include components/card.html content=card %}
+				{% endfor %}
+
+			</div>
+
+		{% endif %}
+
+	{% endfor %}
+
+</section>

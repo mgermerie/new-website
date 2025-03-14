@@ -1,0 +1,14 @@
+- title: API
+  sections:
+
+
+    - title: This content is not ready yet
+      custom-template: page-not-ready.html
+      text: This website is still under construction and the api documentation
+            page has not been implemented yet. Please visit the old version of
+            the documentation, including api documentation at the following
+            link.
+      link:
+        text: Visit former API documentation
+        target: https://www.itowns-project.org/itowns/docs/#home
+

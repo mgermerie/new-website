@@ -1,0 +1,124 @@
+- title: Choosing iTowns
+  sections:
+
+
+
+    - title: A multitude of use cases
+      content:
+
+        - type: cards
+          wrap: desktop
+          content:
+            - title: Explore diverse geographic datasets
+              tags:
+                - tag: Flexibility
+                - tag: Customisation
+              text:
+                - paragraph:  First-class support of geospatial standards,
+                              enabling seamless composition of diverse datasets.
+                - paragraph:  Want to visualize your data over a plan or on a
+                              globe? That's up to you!
+              # link:
+              #   target: page-not-ready
+              #   text: See use-case
+              #   icon: /assets/icons/eye.svg
+            - title: Build digital twins
+              tags:
+                - tag: Digital replicas
+                - tag: Interaction
+              text:
+                - paragraph: A robust platform for seamlessly navigate and
+                             interact with digital replicas of real-world
+                             environments.
+              # link:
+              #   target: page-not-ready
+              #   text: See use-case
+              #   icon: /assets/icons/eye.svg
+            - title: Manipulate BIM data
+              tags:
+                - tag: BIM
+                - tag: Spatial information
+              text:
+                - paragraph: Effortlessly visualize precise 3D data, including
+                             Building Information Modeling (BIM).
+              # link:
+              #   target: page-not-ready
+              #   text: See use-case
+              #   icon: /assets/icons/eye.svg
+
+
+
+    - title: Built for the community
+      content:
+
+        - type: cards
+          content:
+            - title: Build your own geospatial service
+              text:
+                - paragraph: Made for those who want to build easily their own
+                             geospatial visualisation service.
+            - title: Open governance
+              text:
+                - paragraph: Based on an open governance system that allows
+                             everyone to contribute.
+            - title: Frictionless and easily extendable
+              text:
+                - paragraph: Easily extendable and easy to handle.
+
+
+
+    - title: Key features
+      content:
+
+        - type: description
+          content:
+            - title: Swiss army knife for geographic data
+            - paragraph: iTowns offers a comprehensive toolkit for visualizing,
+                         interacting and  composing diverse spatial datasets.
+                         Mix point clouds, terrain, orthophotos and vector data
+                         in a single view!
+
+        - type: cards
+          wrap: tablet
+          content:
+            - title: Easily extend the engine for your needs
+            - title: Build your application from simple blocks
+
+
+
+    - title: Multiple format support
+      content:
+
+        - type: cards
+          wrap: tablet
+          content:
+            - title: OGC 3D Tiles
+              text:
+                - paragraph: Rely on 3DTilesRendererJS to support streams of
+                             point clouds and batches of heterogeneous 3D
+                             models. Visualize and interact with massive
+                             datasets such as urban infrastructure.
+              link:
+                target: https://github.com/NASA-AMMOS/3DTilesRendererJS
+                text: See 3DTilesRendererJS repo
+                icon: /assets/icons/eye.svg
+            - title: 2D GIS formats
+              text:
+                - paragraph: Retrieve aerial images or terrain tiles from OGC
+                             mapping services, and render vector data from
+                             GeoJSON, KML, or Mapbox Vector Tiles. Add depth to
+                             your vector data by extruding it!
+            - title: Mapbox Vector Tile (MVT) and Style
+              text:
+                - paragraph: Handles Mapbox Vector Tile (MVT) datasets along
+                             with its styling. iTowns stylization mechanism
+                             allows you to easily stylize the rendered data
+                             according to your preferences.
+            - title: Point clouds
+              text:
+                - paragraph: Native integration of the most widely used point
+                             cloud formats, including Potree, Entwine and COPC.
+                             Effortlessly visualize the outcomes of your
+                             acquisition and fine-tune the visualization to your
+                             needs.
+

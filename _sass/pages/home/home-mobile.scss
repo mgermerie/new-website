@@ -1,0 +1,38 @@
+@media (max-width: $MOBILE_BREAKPOINT) {
+  .home-content-wrapper {
+    padding: var(--spacing-S) 0;
+
+    gap: var(--spacing-S);
+  }
+
+  .home-content-wrapper .hideable-mobile {
+    display: none;
+  }
+
+  .home-title {
+    padding: var(--spacing-2XS) var(--spacing-S);
+
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .home-keywords-wrapper {
+    padding: var(--spacing-XS) var(--spacing-S);
+
+    flex-direction: column;
+    gap: var(--spacing-L);
+    justify-content: flex-start;
+  }
+
+  .home-keyword-text {
+    font-size: 14px;
+  }
+
+  .home-call-to-action {
+    padding: 0 var(--spacing-S);
+  }
+
+  .home-example-wrapper {
+    margin: 0 var(--spacing-S);
+  }
+}

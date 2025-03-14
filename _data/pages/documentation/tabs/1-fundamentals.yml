@@ -1,0 +1,59 @@
+- title: Fundamentals
+  sections:
+
+
+    - title: How it works
+      custom-template: main-dependencies.html
+      description: "iTowns uses multiple bricks to display a wide range of data
+                   such as  ortho-images, Digital Elevation Models (DEM) or 3D
+                   models. Among those bricks, the preeminent ones are the
+                   following:"
+      dependencies:
+        - title: ThreeJS
+          text:
+            - paragraph: JavaScript-based WebGL engine that can run GPU-powered
+                         games and other graphics-powered apps straight from the
+                         browser. The three.js library provides many features
+                         and APIs for drawing 3D scenes in your browser.
+        - title: WebGL
+          text:
+            - paragraph: WebGL (Web Graphics Library) is a JavaScript API for
+                         rendering high-performance interactive 3D and 2D
+                         graphics within any compatible web browser  without the
+                         use of plug-ins. WebGL does so by introducing an API
+                         that closely conforms to OpenGL ES 2.0 that can be used
+                         in HTML canvas elements.
+        - title: Proj4JS
+          text:
+            - paragraph: Proj4JS is a JavaScript library to transform
+                         coordinates from one coordinate system to another,
+                         including datum transformations. Originally a port of
+                         PROJ (then known as PROJ.4) and GCTCP C (Archive) it is
+                         a part of the MetaCRS group of projects.
+
+    - custom-template: itowns-basics.html
+      content:
+        - title: Protocols and data formats
+          text: iTowns supports all the main geographic protocols and formats.
+          icon: assets/icons/data.svg
+          manual: data
+          id: data
+          color: blue
+        - title: The view
+          text: The support to display anything within iTowns is called a View.
+          icon: assets/icons/monitor.svg
+          manual: view
+          id: view
+        - title: Layers
+          text: Data are displayed as Layers within iTowns.
+          icon: assets/icons/layers.svg
+          manual: layer
+          id: layer
+          color: light-green
+        - title: Style
+          text: iTowns allows setting custom styles to vector data.
+          icon: assets/icons/palette.svg
+          manual: style
+          id: style
+          color: dark-green
+

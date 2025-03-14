@@ -1,0 +1,34 @@
+.manual h1 {
+  margin-block: var(--spacing-XL);
+  font-size: 24px;
+}
+
+.manual {
+  line-height: 32px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.manual p,
+.manual ul {
+  margin: var(--spacing-L) var(--spacing-none);
+}
+
+.manual code {
+  background-color: #E0E6EB;
+  border-radius: 6px;
+  padding: .2em .4em;
+
+  color: var(--text-primary);
+  font-size: 85%;
+}
+.manual a:has(code) {
+  text-underline-offset: 4px;
+  text-decoration-color: var(--text-primary);
+}
+
+.manual table img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

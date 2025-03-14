@@ -1,0 +1,55 @@
+<div class="card {{ include.class }}">
+
+	<h6 class="card-title">
+		{{ include.content.title }}
+	</h6>
+
+	{% if include.content.tags %}
+	<ul class="card-tags-wrapper">
+		{% for item in include.content.tags %}
+		<li class="card-tag">
+			{{ item.tag }}
+		</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if include.content.text %}
+	<div class="card-text-wrapper">
+		{% for text_entry in include.content.text %}
+			{% assign text = text_entry | first %}
+
+			{% if text[0] == "paragraph" %}
+				<p class="card-text">
+					{{ text[1] }}
+				</p>
+			{% elsif text[0] == "inline-link" %}
+				<p class="card-text">
+					<a	class="inline-link"
+						href="{{ text[1].target }}"
+						target="_blank"
+						title="{{ text[1].title }}">
+						{{ text[1].text }}
+					</a>
+				</p>
+			{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if include.content.link %}
+	<div class="card-link-wrapper">
+		<a	class="button medium tertiary"
+			href="{{ include.content.link.target }}"
+			target="_blank"
+			title="{{ include.content.link.text }}"
+			style="--icon-left:
+				url('{{ site.baseurl }}/{{include.content.link.icon }}')"
+		>
+			{{ include.content.link.text }}
+		</a>
+	</div>
+	{% endif %}
+
+</div>
+

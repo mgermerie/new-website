@@ -1,0 +1,6 @@
+- name: Contact
+  link: /page-not-ready
+
+- name: Github
+  link: https://github.com/iTowns/itowns
+  externalLink: true

@@ -1,0 +1,13 @@
+- title: Tutorials
+  sections:
+
+
+    - title: This content is not ready yet
+      custom-template: page-not-ready.html
+      text: This website is still under construction and the tutorials page has
+            not been implemented yet. Please visit the old version of the
+            documentation, including tutorials at the following link.
+      link:
+        text: Visit former tutorials
+        target: https://www.itowns-project.org/itowns/docs/#home
+

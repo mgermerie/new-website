@@ -1,0 +1,24 @@
+<section class="tab-section">
+
+	<h5 class="tab-section-title">
+		{{ include.content.title }}
+	</h5>
+
+	<div class="tab-section-description">
+		<p class="tab-section-paragraph">
+			{{ include.content.description }}
+		</p>
+	</div>
+
+	<div class="main-dependencies-wrapper">
+		<div class="main-dependencies-graphics">
+			<embed src="{{ site.baseurl }}/assets/images/main-dependencies.svg">
+		</div>
+		<div class="cards-wrapper">
+			{% for card in include.content.dependencies%}
+				{% include components/card.html content=card class="small" %}
+			{% endfor %}
+		</div>
+	</div>
+
+</section>

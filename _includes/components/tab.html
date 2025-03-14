@@ -1,0 +1,33 @@
+<div	class="tab-content-wrapper"
+		id="tab-{{ include.id }}">
+
+	{% assign tab_content = include.content %}
+
+	<div class="tab-header">
+
+		<h4 class="tab-title">
+			{{ tab_content.title }}
+		</h4>
+
+		{% if tab_content.description %}
+		<p class="tab-description">
+			{{ tab_content.description }}
+		</p>
+		{% endif %}
+
+	</div>
+
+	{% for item in tab_content.sections %}
+		{% if item.custom-template %}
+			{% include custom-templates/{{ item.custom-template }}
+				content=item
+			%}
+		{% else %}
+			{% include components/default-tab-section.html
+				content=item
+			%}
+		{% endif %}
+	{% endfor %}
+
+</div>
+

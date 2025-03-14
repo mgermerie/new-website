@@ -1,0 +1,47 @@
+<section class="tab-section itowns-basics">
+
+	{% for card in include.content.content %}
+		<div class="alternative-card {{ card.color }}">
+
+			<div	class="alternative-card-icon"
+					style="--background-icon:
+						url('{{ site.baseurl }}/{{ card.icon }}'">
+			</div>
+
+			<h6 class="alternative-card-title">
+				{{ card.title }}
+			</h6>
+
+			<p class="alternative-card-text">
+				{{ card.text }}
+			</p>
+
+			<button class="alternative-button"
+					id="{{ card.id }}-display-button">
+				Open details
+			</button>
+
+		</div>
+
+		<div	class="modal-wrapper"
+				id="{{ card.id }}-modal-wrapper">
+			<div	class="modal"
+					id="{{ card.id }}-modal">
+				<div class="modal-button-wrapper">
+					<button	class="button tertiary large"
+							id="{{ card.id }}-hide-button"
+							style="--icon-left:url('{{ site.baseurl
+								}}/assets/icons/file-check.svg')">
+						Got It!
+					</button>
+				</div>
+				<div class="modal-content">
+					{% assign manual = site.manuals
+						| where: "slug", card.manual | first %}
+					{% include components/manual.html content=manual.content %}
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+
+</section>

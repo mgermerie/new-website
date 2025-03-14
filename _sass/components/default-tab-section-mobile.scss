@@ -1,0 +1,10 @@
+@media (max-width: $MOBILE_BREAKPOINT) {
+  .cards-wrapper.wrap-tablet {
+    flex-direction: column;
+  }
+
+  .tab-section-paragraph {
+    font-size: 16px;
+  }
+}
+

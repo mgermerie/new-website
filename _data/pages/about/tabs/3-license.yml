@@ -1,0 +1,71 @@
+- title: License
+  sections:
+
+
+
+    - title: iTowns
+      content:
+
+        - type: description
+          content:
+            - paragraph: These are permissive licence. You have permission to
+                         use the code, to modify it, publish it, sell it, make
+                         something with it and sell it. What you just need to do
+                         is to keep the license and copyright text from the code
+                         when you share it.
+            - paragraph: Full modification and redistribution right Citation
+                         requirement Community rules Foss Licence (MIT).
+        - type: description
+          content:
+            - inline-link:
+                target: https://github.com/iTowns/itowns/blob/master/LICENSE.md
+                title: Go to iTowns license file
+                text: Link to iTowns license.md
+
+        - type: cards
+          content:
+            - title: MIT
+              text:
+                - inline-link:
+                    target: https://opensource.org/license/mit/
+                    title: Go to MIT license information
+                    text: https://opensource.org/license/mit/
+            - title: CeCILL B
+              text:
+                - inline-link:
+                    target: https://cecill.info/
+                    title: Go to CeCILL B license information
+                    text: https://cecill.info/
+
+
+
+    - title: Third-party code
+      custom-template: dependencies-list.html
+      dependencies:
+        - name: "Three"
+          license: "MIT"
+          link:
+            target: "https://github.com/mrdoob/three.js/blob/dev/LICENSE"
+            text: "ThreeJS license"
+        - name: "proj4"
+          license: "MIT"
+        - name: "@mapbox/mapbox-gl-style-spec"
+          license: "ISC"
+        - name: "@mapbox/vector-tile"
+          license: "BSD-3-Clause"
+        - name: "@tmcw/togeojson"
+          license: "BSD-3-Clause"
+        - name: "@tweenjs/tween.js"
+          license: "MIT"
+        - name: "earcut"
+          license: "ISC"
+        - name: "js-priority-queue"
+          license: "PriorityQueue is published under a Public Domain status."
+          link:
+            target: "https://github.com/adamhooper/js-priority-queue/blob/master/LICENSE.md"
+            text: "js-priority-queue license"
+        - name: "pbf"
+          license: "BSD-3-Clause"
+        - name: "shpjs"
+          license: "MIT"
+

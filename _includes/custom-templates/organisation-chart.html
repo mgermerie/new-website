@@ -1,0 +1,39 @@
+<section class="tab-section">
+
+	<h5 class="tab-section-title">
+		{{ include.content.title }}
+	</h5>
+
+	<div class="tab-section-description">
+		<p class="tab-section-paragraph">
+			{{ include.content.description }}
+		</p>
+	</div>
+
+	<ul class="organisation-chart">
+		{% for contributor in include.content.contributors %}
+		<li class="contributor-wrapper">
+			<a	class="contributor-link"
+				href="https://github.com/{{ contributor.user-name }}"
+				target="_blank"
+				title="Go to {{ contributor.user-name }} GitHub page">
+				<img	class="contributor-picture"
+						src="https://github.com/{{ contributor.user-name }}.png"
+						alt="GitHub profile picture of
+							 {{ contributor.user-name }}">
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+
+	<a	class="button large tertiary organisation-button"
+		href="https://github.com/iTowns/itowns/blob/master/CONTRIBUTORS.md"
+		target="_blank"
+  		title="Go to iTowns contributors list"
+		style="--icon-left:
+			url('{{ site.baseurl }}/assets/icons/github.svg')">
+		See our contributors
+	</a>
+
+</section>
+

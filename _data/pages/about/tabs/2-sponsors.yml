@@ -1,0 +1,58 @@
+- title: Sponsors
+  sections:
+
+
+
+    - title: Key stakeholders
+      content:
+
+        - type: description
+          content:
+            - paragraph: "Sponsors ensure the project's sustainability by
+                         providing human resources and support. Current sponsors
+                         are :"
+
+        - type: cards
+          content:
+            - title: French national geographic institute
+              text:
+                - paragraph: The original authors of  iTowns, through their
+                             research labs. iTowns is used as the foundation for
+                             building the 3D component of geoservices, alongside
+                             various demonstrators showcasing data produced by
+                             IGN.
+                - inline-link:
+                    target: https://www.ign.fr
+                    title: Link to IGN website
+                    text: https://www.ign.fr/
+            - title: Ciril Group
+              text:
+                - paragraph: A software publisher and a Cloud hosting service
+                             provider. Their Business Geographic division
+                             leverages iTowns to build the 3D component of the
+                             GEO Software GIS.
+                - inline-link:
+                    target: https://www.cirilgroup.com/fr/
+                    title: Link to Ciril Group website
+                    text: https://www.cirilgroup.com/fr/
+
+
+
+    - title: Recurrent contributors
+      content:
+
+        - type: cards
+          content:
+            - title: Sogelink
+              text:
+                - inline-link:
+                    target: https://www.sogelink.com/
+                    title: Link to Sogelink website
+                    text: https://www.sogelink.com/
+            - title: Liris
+              text:
+                - inline-link:
+                    target: https://liris.cnrs.fr/
+                    title: Link to Liris website
+                    text: https://liris.cnrs.fr/
+

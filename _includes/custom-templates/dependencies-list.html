@@ -1,0 +1,29 @@
+<section class="tab-section">
+
+	<h5 class="tab-section-title">
+		{{ include.content.title }}
+	</h5>
+
+	<ul class="dependencies-list">
+		{% for dependency in include.content.dependencies %}
+		<li class="dependency">
+			<span class="dependency-name">
+				{{ dependency.name }}
+			</span>
+			<span class="dependency-license">
+				{{ dependency.license }}
+			</span>
+			{% if dependency.link %}
+				<a	class="inline-link dependency-link"
+					href="{{ dependency.link.target }}"
+					target="_blank"
+					title="Go to license file">
+					{{ dependency.link.text }}
+				</a>
+			{% endif %}
+
+		</li>
+		{% endfor %}
+	</ul>
+
+</section>
