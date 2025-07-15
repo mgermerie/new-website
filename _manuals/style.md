@@ -75,14 +75,14 @@ For example, given a set of polygons, setting `fill.base_altitude` to `500` and
 &rarr;[**`Visit tutorial`**][tuto3d]
 
 
-[view]: https://www.itowns-project.org/itowns/docs/#api/View/View
-[style]: https://www.itowns-project.org/itowns/docs/#api/Base/Style
-[layer]: https://www.itowns-project.org/itowns/docs/#api/Layer/Layer
-[color]: https://www.itowns-project.org/itowns/docs/#api/Layer/ColorLayer
-[geom]: https://www.itowns-project.org/itowns/docs/#api/Layer/GeometryLayer
+[view]: https://itowns.github.io/itowns/docs/#api/View/View
+[style]: https://itowns.github.io/itowns/docs/#api/Base/Style
+[layer]: https://itowns.github.io/itowns/docs/#api/Layer/Layer
+[color]: https://itowns.github.io/itowns/docs/#api/Layer/ColorLayer
+[geom]: https://itowns.github.io/itowns/docs/#api/Layer/GeometryLayer
 
-[tutoground]: https://www.itowns-project.org/itowns/docs/#tutorials/Vector-data-on-ground
-[tuto3d]: https://www.itowns-project.org/itowns/docs/#tutorials/Vector-data-3d
+[tutoground]: https://itowns.github.io/itowns/docs/#tutorials/Vector-data-on-ground
+[tuto3d]: https://itowns.github.io/itowns/docs/#tutorials/Vector-data-3d
 
 [image1]: {{ site.baseurl }}/assets/images/manuals/style-1.png
 [image2]: {{ site.baseurl }}/assets/images/manuals/style-2.png

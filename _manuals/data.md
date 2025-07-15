@@ -49,21 +49,21 @@ add data from any format or protocol that is not supported by itowns.
 [kml]: https://www.ogc.org/standards/kml
 [gpx]: https://www.topografix.com/gpx.asp
 
-[source]: https://www.itowns-project.org/itowns/docs/#api/Source/Source
-[wmssource]: https://www.itowns-project.org/itowns/docs/#api/Source/WMSSource
-[wmtssource]: https://www.itowns-project.org/itowns/docs/#api/Source/WMTSSource
-[wfssource]: https://www.itowns-project.org/itowns/docs/#api/Source/WFSSource
-[tmssource]: https://www.itowns-project.org/itowns/docs/#api/Source/TMSSource
-[mvtsource]: https://www.itowns-project.org/itowns/docs/#api/Source/VectorTilesSource
-[potreesource]: https://www.itowns-project.org/itowns/docs/#api/Source/PotreeSource
-[potree2source]: https://www.itowns-project.org/itowns/docs/#api/Source/Potree2Source
-[eptsource]: https://www.itowns-project.org/itowns/docs/#api/Source/EntwinePointTileSource
-[3dtsource]: https://www.itowns-project.org/itowns/docs/#api/Source/OGC3DTilesSource
-[3dtisource]: https://www.itowns-project.org/itowns/docs/#api/Source/OGC3DTilesIonSource
-[3dtgsource]: https://www.itowns-project.org/itowns/docs/#api/Source/OGC3DTilesGoogleSource
-[filesource]: https://www.itowns-project.org/itowns/docs/#api/Source/FileSource
-[gjsonparser]: https://www.itowns-project.org/itowns/docs/#api/Parser/GeoJsonParser
+[source]: https://itowns.github.io/itowns/docs/#api/Source/Source
+[wmssource]: https://itowns.github.io/itowns/docs/#api/Source/WMSSource
+[wmtssource]: https://itowns.github.io/itowns/docs/#api/Source/WMTSSource
+[wfssource]: https://itowns.github.io/itowns/docs/#api/Source/WFSSource
+[tmssource]: https://itowns.github.io/itowns/docs/#api/Source/TMSSource
+[mvtsource]: https://itowns.github.io/itowns/docs/#api/Source/VectorTilesSource
+[potreesource]: https://itowns.github.io/itowns/docs/#api/Source/PotreeSource
+[potree2source]: https://itowns.github.io/itowns/docs/#api/Source/Potree2Source
+[eptsource]: https://itowns.github.io/itowns/docs/#api/Source/EntwinePointTileSource
+[3dtsource]: https://itowns.github.io/itowns/docs/#api/Source/OGC3DTilesSource
+[3dtisource]: https://itowns.github.io/itowns/docs/#api/Source/OGC3DTilesIonSource
+[3dtgsource]: https://itowns.github.io/itowns/docs/#api/Source/OGC3DTilesGoogleSource
+[filesource]: https://itowns.github.io/itowns/docs/#api/Source/FileSource
+[gjsonparser]: https://itowns.github.io/itowns/docs/#api/Parser/GeoJsonParser
 [kmlparser]: KMLParser
-[gpxparser]: https://www.itowns-project.org/itowns/docs/#api/Parser/GpxParser
-[oisource]: https://www.itowns-project.org/itowns/docs/#api/Source/OrientedImageSource
+[gpxparser]: https://itowns.github.io/itowns/docs/#api/Parser/GpxParser
+[oisource]: https://itowns.github.io/itowns/docs/#api/Source/OrientedImageSource
 

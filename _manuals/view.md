@@ -37,14 +37,14 @@ data and [`Views`][view]:
 &rarr;[**`Visit PlanarView tutorial`**][tutoplanar]
 
 
-[view]: https://www.itowns-project.org/itowns/docs/#api/View/View
-[globeview]: https://www.itowns-project.org/itowns/docs/#api/View/GlobeView
-[planarview]: https://www.itowns-project.org/itowns/docs/#api/View/PlanarView
+[view]: https://itowns.github.io/itowns/docs/#api/View/View
+[globeview]: https://itowns.github.io/itowns/docs/#api/View/GlobeView
+[planarview]: https://itowns.github.io/itowns/docs/#api/View/PlanarView
 
 [epsg4326]: https://epsg.io/4326
 [epsg3857]: https://epsg.io/3857
 [epsg2154]: https://epsg.io/2154
 
-[tutoglobe]: https://www.itowns-project.org/itowns/docs/#tutorials/Raster-data-WGS84
-[tutoplanar]: https://www.itowns-project.org/itowns/docs/#tutorials/Raster-data-Lambert93
+[tutoglobe]: https://itowns.github.io/itowns/docs/#tutorials/Raster-data-WGS84
+[tutoplanar]: https://itowns.github.io/itowns/docs/#tutorials/Raster-data-Lambert93
 

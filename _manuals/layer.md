@@ -43,16 +43,16 @@ their own geometry and are always *attached* to a [`GeometryLayer`][geometry]
 [`GeometryLayer`][geometry] accordingly.
 
 
-[layer]: https://www.itowns-project.org/itowns/docs/#api/Layer/Layer
-[color]: https://www.itowns-project.org/itowns/docs/#api/Layer/ColorLayer
-[elevation]: https://www.itowns-project.org/itowns/docs/#api/Layer/ElevationLayer
-[geometry]: https://www.itowns-project.org/itowns/docs/#api/Layer/GeometryLayer
-[feature]: https://www.itowns-project.org/itowns/docs/#api/Layer/FeatureGeometryLayer
-[pointcloud]: https://www.itowns-project.org/itowns/docs/#api/Layer/PointCloudLayer
-[3dtiles]: https://www.itowns-project.org/itowns/docs/#api/Layer/OGC3DTilesLayer
-[oriented]: https://www.itowns-project.org/itowns/docs/#api/Layer/OrientedImageLayer
+[layer]: https://itowns.github.io/itowns/docs/#api/Layer/Layer
+[color]: https://itowns.github.io/itowns/docs/#api/Layer/ColorLayer
+[elevation]: https://itowns.github.io/itowns/docs/#api/Layer/ElevationLayer
+[geometry]: https://itowns.github.io/itowns/docs/#api/Layer/GeometryLayer
+[feature]: https://itowns.github.io/itowns/docs/#api/Layer/FeatureGeometryLayer
+[pointcloud]: https://itowns.github.io/itowns/docs/#api/Layer/PointCloudLayer
+[3dtiles]: https://itowns.github.io/itowns/docs/#api/Layer/OGC3DTilesLayer
+[oriented]: https://itowns.github.io/itowns/docs/#api/Layer/OrientedImageLayer
 
-[source]: https://www.itowns-project.org/itowns/docs/#api/Source/Source
+[source]: https://itowns.github.io/itowns/docs/#api/Source/Source
 
 [image1]: {{ site.baseurl }}/assets/images/manuals/layer-1.png
 [image2]: {{ site.baseurl }}/assets/images/manuals/layer-2.png
