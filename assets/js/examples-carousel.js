@@ -1,7 +1,5 @@
 const examples = document.getElementsByClassName('home-example');
 
-console.log(examples);
-
 let index = Math.floor(Math.random() * examples.length);
 examples[index].classList.add('visible');
 

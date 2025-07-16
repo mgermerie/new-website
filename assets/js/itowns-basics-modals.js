@@ -12,7 +12,6 @@ for (let modal of modals) {
 		}
 	};
 	const onKeyUp = (e) => {
-		console.log(e.key);
 		if (e.key === 'Escape') {
 			hideModal();
 		}
