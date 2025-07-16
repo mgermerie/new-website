@@ -101,7 +101,7 @@
               link:
                 target: https://github.com/NASA-AMMOS/3DTilesRendererJS
                 text: See 3DTilesRendererJS repo
-                icon: /assets/icons/eye.svg
+                icon: assets/icons/eye.svg
             - title: 2D GIS formats
               text:
                 - paragraph: Retrieve aerial images or terrain tiles from OGC
