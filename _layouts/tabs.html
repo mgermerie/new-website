@@ -16,18 +16,17 @@
 
 	<body>
 
+
 		{% include components/header.html %}
 
+		{% assign content = page.structured_content %}
 
-		{% assign subheader = site.data.pages[page.data].subheader | first %}
-		{% if subheader %}
-			{% include components/subheader.html content=subheader %}
-		{% endif %}
+		{% include new_components/subheader.html content=content.subheader %}
 
+		{% if content.tabs %}
 
-		{% assign tabs = site.data.pages[page.data].tabs %}
-		{% if tabs %}
 			<div class='active-tab-wrapper'>
+
 				<button	class='active-tab'
 						id='active-tab'
 						style="
@@ -38,12 +37,16 @@
 							--after-image-arrow-up:
 								url('{{ site.baseurl }}/assets/icons/arrow-up.svg');">
 				</button>
+
 			</div>
+
 			<ul	class='tab-bar collapsed'
 				id='tab-bar'>
-				{% for tab_hash in tabs %}
-					{% assign tab_id = tab_hash[0] %}
-					{% assign tab = tab_hash[1] | first %}
+
+				{% for tab in content.tabs %}
+
+					{% assign tab_id = tab.title | slugify %}
+
 					<li>
 						<a	class='tab-bar-item'
 							id='link-{{ tab_id }}'
@@ -52,23 +55,19 @@
 							{{ tab.title }}
 						</a>
 					</li>
-				{% endfor %}
-			</ul>
-			{% for tab_hash in tabs %}
-				{% assign tab_id = tab_hash[0] %}
-				{% assign tab = tab_hash[1] | first %}
 
-				{% include components/tab.html
-						id=tab_id
-						content=tab
-				%}
+				{% endfor %}
+
+			</ul>
+
+			{% for tab in content.tabs %}
+
+				{% assign tab_id = tab.title | slugify %}
+				{% include new_components/tab.html id=tab_id content=tab %}
 
 			{% endfor %}
+
 		{% endif %}
-
-
-		{{ content }}
-
 
 		{% include components/footer.html %}
 
@@ -84,11 +83,10 @@
 				src='{{ site.baseurl }}/assets/js/header.js'>
 		</script>
 
-		{% if tabs %}
-			<script	type="text/javascript"
-					src='{{ site.baseurl }}/assets/js/tab-bar.js'>
-			</script>
-		{% endif %}
+		<script	type="text/javascript"
+				src='{{ site.baseurl }}/assets/js/tab-bar.js'>
+		</script>
+
 
 	</body>
 

@@ -24,7 +24,7 @@ body.stop-scrolling {
 
 .inline-link {
   align-items: center;
-  display: flex;
+  display: inline-flex;
   gap: var(--spacing-2XS);
 
   color: inherit;

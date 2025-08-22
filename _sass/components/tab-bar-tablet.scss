@@ -53,6 +53,7 @@
     border-width: 1px 0;
     box-sizing: border-box;
     padding: var(--spacing-S) var(--spacing-XL);
+    width: 100%;
 
     background-color: var(--background-white);
 
@@ -89,7 +90,9 @@
     content: var(--after-image-arrow-up);
   }
 
-  .active-tab:has(+.collapsed)::after {
-    content: var(--after-image-arrow-down);
+  .active-tab-wrapper:has(+.collapsed) {
+    .active-tab::after {
+      content: var(--after-image-arrow-down);
+    }
   }
 }

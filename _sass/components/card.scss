@@ -6,7 +6,7 @@
   background-color: var(--background-white);
   box-shadow: 4px 4px 1px 0 var(--background-gray);
 
-  align-items: flex-start;
+  align-items: stretch;
   display: flex;
   flex-direction: column;
   flex: 1 0 25%;
@@ -61,12 +61,23 @@
   font-size: 18px;
 }
 
-.card-link-wrapper {
-  margin-top: auto;
-
+.card-text:has(> a.button) {
   align-self: stretch;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end
+}
+
+.card-text > a.button[target="_blank"]::after {
+  background-size: var(--icon-size-M) var(--icon-size-M);
+  height: var(--icon-size-M);
+  width: var(--icon-size-M);
+
+  filter: var(--filter-primary);
+  background-image: url('../icons/external-link.svg');
+
+  content: '';
+
+  display: flex;
 }
 
 .card.small {

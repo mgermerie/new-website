@@ -20,7 +20,7 @@
 }
 
 .dependency:not(:last-child) {
-	border-bottom: 1px solid var(--border-blue);
+  border-bottom: 1px solid var(--border-blue);
 }
 
 .dependency-name {
@@ -32,7 +32,7 @@
   font-size: 18px;
 }
 
-.dependency-link {
+.dependency a {
   font-size: 18px;
 }
 

@@ -12,11 +12,6 @@
 @import 'generalities.scss';
 
 
-
-@import 'components/button.scss';
-
-@import 'components/nav-link.scss';
-
 @import 'components/header.scss';
 @import 'components/header-tablet.scss';
 @import 'components/header-mobile.scss';
@@ -40,7 +35,6 @@
 @import 'components/tab-mobile.scss';
 
 @import 'components/default-tab-section.scss';
-@import 'components/default-tab-section-tablet.scss';
 @import 'components/default-tab-section-mobile.scss';
 
 @import 'components/card.scss';
@@ -49,11 +43,27 @@
 @import 'components/manual.scss';
 @import 'components/manual-mobile.scss';
 
+@import 'components/button.scss';
+
+@import 'components/nav-link.scss';
+
+@import 'components/dependencies-list.scss';
+@import 'components/dependencies-list-tablet.scss';
+@import 'components/dependencies-list-mobile.scss';
+
+@import 'components/organisation-chart.scss';
+@import 'components/organisation-chart-mobile.scss';
+
+@import 'components/main-dependencies.scss';
+@import 'components/main-dependencies-tablet.scss';
+
+@import 'components/itowns-basics.scss';
+@import 'components/itowns-basics-tablet.scss';
+@import 'components/itowns-basics-mobile.scss';
 
 
 @import 'pages/home.scss';
 @import 'pages/about.scss';
-@import 'pages/documentation.scss';
 
 @import 'pages/not-ready.scss';
 

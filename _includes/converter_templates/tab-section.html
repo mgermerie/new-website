@@ -1,0 +1,58 @@
+<section class="tab-section">
+
+{% include converter_templates/tab-header.html %}
+
+
+{% if cards %}
+
+    <div class="cards-wrapper">
+
+    {% for card in cards %}
+
+        <div class="card">
+
+            <h6 class="card-title">
+                {{ card.title }}
+            </h6>
+
+        {% if card.tags %}
+
+            <ul class="card-tags-wrapper">
+
+            {% for tag in card.tags %}
+
+                <li class="card-tag">
+                    {{ tag }}
+                </li>
+
+            {% endfor %}
+
+            </ul>
+
+        {% endif %}
+
+        {% if card.text %}
+
+            <div class="card-text-wrapper">
+
+            {% for text in card.text %}
+
+                <p class="card-text">
+                    {{ text }}
+                </p>
+
+            {% endfor %}
+
+            </div>
+
+        {% endif %}
+
+        </div>
+
+    {% endfor %}
+
+    </div>
+
+{% endif %}
+
+</section>
