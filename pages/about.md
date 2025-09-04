@@ -1,7 +1,7 @@
 ---
 permalink: /about
 title: 'iTowns - About iTowns'
-layout: tabs
+layout: page-with-tabs
 ---
 
 
@@ -154,17 +154,6 @@ Click on any of our members' picture to view their GitHub page.
 - [pourfex][pourfex]
 - [valentinMachado][valentinMachado]
 
-[desplandis]: https://github.com/desplandis "Go to desplandis GitHub page"
-[jailln]: https://github.com/jailln "Go to jailln GitHub page"
-[AnthonyGlt]: https://github.com/AnthonyGlt "Go to AnthonyGlt GitHub page"
-[ftoromanoff]: https://github.com/ftoromanoff "Go to ftoromanoff GitHub page"
-[mgermerie]: https://github.com/mgermerie "Go to mgermerie GitHub page"
-[gchoqueux]: https://github.com/gchoqueux "Go to gchoqueux GitHub page"
-[jogarnier]: https://github.com/jogarnier "Go to jogarnier GitHub page"
-[zarov]: https://github.com/zarov "Go to zarov GitHub page"
-[ketourneau]: https://github.com/ketourneau "Go to ketourneau GitHub page"
-[pourfex]: https://github.com/pourfex "Go to pourfex GitHub page"
-[valentinMachado]: https://github.com/valentinMachado "Go to valentinMachado GitHub page"
 
 
 
@@ -278,11 +267,26 @@ Foss Licence (MIT).
 
 
 
+
 [uri-3dtiles]: https://github.com/NASA-AMMOS/3DTilesRendererJS "Go to 3DTilesRendererJS GitHub repository"
+
+[desplandis]: https://github.com/desplandis "Go to desplandis GitHub page"
+[jailln]: https://github.com/jailln "Go to jailln GitHub page"
+[AnthonyGlt]: https://github.com/AnthonyGlt "Go to AnthonyGlt GitHub page"
+[ftoromanoff]: https://github.com/ftoromanoff "Go to ftoromanoff GitHub page"
+[mgermerie]: https://github.com/mgermerie "Go to mgermerie GitHub page"
+[gchoqueux]: https://github.com/gchoqueux "Go to gchoqueux GitHub page"
+[jogarnier]: https://github.com/jogarnier "Go to jogarnier GitHub page"
+[zarov]: https://github.com/zarov "Go to zarov GitHub page"
+[ketourneau]: https://github.com/ketourneau "Go to ketourneau GitHub page"
+[pourfex]: https://github.com/pourfex "Go to pourfex GitHub page"
+[valentinMachado]: https://github.com/valentinMachado "Go to valentinMachado GitHub page"
+
 [uri-ign]: https://www.ign.fr "Go to IGN website"
 [uri-cirilgroup]: https://www.cirilgroup.com/fr "Go to Ciril group website"
 [uri-sogelink]: https://www.sogelink.com "Go to Sogelink website"
 [uri-liris]: https://liris.cnrs.fr "Go to Liris website"
+
 [uri-license]: https://github.com/iTowns/itowns/blob/master/LICENSE.md "Go to iTowns license.md file"
 [uri-mit]: https://opensource.org/license/mit/ "Go to MIT license description"
 [uri-cecill]: https://cecill.info/ "Go to CeCILL B license description"

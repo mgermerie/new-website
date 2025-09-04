@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4.1"
 gem "minima", "~> 2.5"
+gem 'bigdecimal', '~> 3.2', '>= 3.2.3'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

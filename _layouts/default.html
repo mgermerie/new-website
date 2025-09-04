@@ -19,54 +19,6 @@
 		{% include components/header.html %}
 
 
-		{% assign subheader = site.data.pages[page.data].subheader | first %}
-		{% if subheader %}
-			{% include components/subheader.html content=subheader %}
-		{% endif %}
-
-
-		{% assign tabs = site.data.pages[page.data].tabs %}
-		{% if tabs %}
-			<div class='active-tab-wrapper'>
-				<button	class='active-tab'
-						id='active-tab'
-						style="
-							--before-image:
-								url('{{ site.baseurl }}/assets/icons/tab-bar.svg');
-							--after-image-arrow-down:
-								url('{{ site.baseurl }}/assets/icons/arrow-down.svg');
-							--after-image-arrow-up:
-								url('{{ site.baseurl }}/assets/icons/arrow-up.svg');">
-				</button>
-			</div>
-			<ul	class='tab-bar collapsed'
-				id='tab-bar'>
-				{% for tab_hash in tabs %}
-					{% assign tab_id = tab_hash[0] %}
-					{% assign tab = tab_hash[1] | first %}
-					<li>
-						<a	class='tab-bar-item'
-							id='link-{{ tab_id }}'
-							href='#{{ tab_id }}'
-							title='{{ tab.title }}'>
-							{{ tab.title }}
-						</a>
-					</li>
-				{% endfor %}
-			</ul>
-			{% for tab_hash in tabs %}
-				{% assign tab_id = tab_hash[0] %}
-				{% assign tab = tab_hash[1] | first %}
-
-				{% include components/tab.html
-						id=tab_id
-						content=tab
-				%}
-
-			{% endfor %}
-		{% endif %}
-
-
 		{{ content }}
 
 
@@ -83,12 +35,6 @@
 		<script	type="text/javascript"
 				src='{{ site.baseurl }}/assets/js/header.js'>
 		</script>
-
-		{% if tabs %}
-			<script	type="text/javascript"
-					src='{{ site.baseurl }}/assets/js/tab-bar.js'>
-			</script>
-		{% endif %}
 
 	</body>
 

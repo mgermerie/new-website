@@ -36,9 +36,9 @@ sass:
   sourcemap: development
 
 collections:
-  manuals:
+  modals:
     output: false
-    permalink: /manuals/:name
+    permalink: /modals/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
