@@ -84,7 +84,7 @@ Rely on 3DTilesRendererJS to support streams of point clouds and batches of
 heterogeneous 3D models. Visualize and interact with massive datasets such as
 urban infrastructure.
 
-[See 3DTilesRendererJS repo][uri-3dtiles]{: 
+[See 3DTilesRendererJS repo][uri-3dtiles]{:
     data-display="button"
 }
 
@@ -163,13 +163,13 @@ Click on any of our members' picture to view their GitHub page.
 ### Key stakeholders
 
 Sponsors ensure the project's sustainability by providing human resources and
-support. Current sponsors are : 
+support. Current sponsors are :
 
 ##### French national geographic institute
 
 The original authors of iTowns, through their research labs. iTowns is used as
 the foundation for building the 3D component of geoservices, alongside various
-demonstrators showcasing data produced by IGN. 
+demonstrators showcasing data produced by IGN.
 
 [https://www.ign.fr/][uri-ign]
 
@@ -222,47 +222,47 @@ Foss Licence (MIT).
 {: data-template="dependencies-list" }
 
 - Three
-  
+
   MIT
-  
+
   [ThreeJS license][uri-license-three]
 
 - proj4
-  
+
   MIT
 
 - @mapbox/mapbox-gl-style-spec
-  
+
   ISC
 
 - @mapbox/vector-tile
-  
+
   BSD-3-Clause
 
-- @tmcw/togeojson    
-  
+- @tmcw/togeojson
+
   BSD-3-Clause
 
-- @tweenjs/tween.js  
-  
+- @tweenjs/tween.js
+
   MIT
 
-- earcut             
-  
+- earcut
+
   ISC
 
-- js-priority-queue  
-  
+- js-priority-queue
+
   PriorityQueue is published under a Public Domain status.
-  
+
   [js-priority-queue license][uri-license-pq]
 
-- pbf                
-  
+- pbf
+
   BSD-3-Clause
 
-- shpjs              
-  
+- shpjs
+
   MIT
 
 
